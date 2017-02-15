@@ -1,5 +1,6 @@
 $(function() {
   $("form#aptSetter").submit(function(event) {
+    
     console.log("this part is working");
 
     var name = $("#name").val();
